@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  dubbo:
+    application:
+      name: dubbo-web
+    registry:
+      address: zookeeper://10.1.51.248:2181
+    scan: com.lksoulman.dubbo

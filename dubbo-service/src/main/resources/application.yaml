@@ -1,0 +1,10 @@
+spring:
+  dubbo:
+    application:
+      name: dubbo-service
+    registry:
+      address: zookeeper://10.1.51.248:2181
+    protocol:
+      name: dubbo
+      port: 20880
+    scan: com.lksoulman.service
